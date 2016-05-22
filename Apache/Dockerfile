@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER Aidan Law a-law@fweco.net
+MAINTAINER Aidan Law afl@aidan-law.com
 
 RUN apt-get update && apt-get install openssl apache2 -y && \
 apt-get clean && rm -rf /var/lib/apt/lists/*
