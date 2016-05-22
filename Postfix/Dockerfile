@@ -1,5 +1,7 @@
 FROM debian:jessie
 
+MAINTAINER Aidan Law afl@aidan-law.com
+
 RUN apt-get update
 RUN apt-get install postfix rsyslog libsasl2-modules -y
 
