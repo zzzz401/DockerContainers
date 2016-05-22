@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER Aidan Law a-law@fweco.net
+MAINTAINER Aidan Law afl@aidan-law.com
 
 RUN apt-get update && apt-get install ruby-full ruby-dev make gcc -y
 
