@@ -19,6 +19,6 @@ EXPOSE 80 443
 
 CMD ["foreground"]
 
-sudo docker run -d --name apache --restart always -p 10.1.1.100:80:80 -p 10.1.1.100:443:443 -v \
-/server/data/jekyllData/_site:/data/aidan-law.com -v /server/data/apacheLogs:/logs -v /server/containers/apache/apache2.conf:/etc/apache2/apache2.conf \
--v /server/containers/apache/vhosts.conf:/etc/apache2/sites-enabled/vhosts.conf apache
+#sudo docker run -d --name apache --restart always -p 10.1.1.100:80:80 -p 10.1.1.100:443:443 -v \
+#/server/data/jekyllData/_site:/data/aidan-law.com -v /server/data/apacheLogs:/logs -v /server/containers/Apache/apache2.conf:/etc/apache2/apache2.conf \
+#-v /server/containers/Apache/vhosts.conf:/etc/apache2/sites-enabled/vhosts.conf apache
