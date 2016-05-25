@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head></head><body><header>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+<style>
+body {
+font-family: 'Inconsolata';
+color: white;
+background-color: black;
+}
+</style>
+</header>
+<h1>
+[  675.362959] Kernel panic - 404 File Not Found<br>[  675.363355] Pid: 1, How did you crash PID 1? Stop It!<br>[  675.363748] Call Trace:<br>[  675.363972]  &lt;NMI&gt;  [&lt;ffffffff81546288&gt;] ? panic+0xa7/0x16f<br>[  675.364284]  [&lt;ffffffff81015039&gt;] ? sched_clock+0x9/0x10<br>[  675.364520]  [&lt;ffffffff81105fdd&gt;] ? watchdog_overflow_callback+0xcd/0xd0<br>[  675.364757]  [&lt;ffffffff8113ed17&gt;] ? __perf_event_overflow+0xa7/0x240<br>[  675.364993]  [&lt;ffffffff8101ee24&gt;] ? x86_perf_event_set_period+0xf4/0x180<br>[  675.365230]  [&lt;ffffffff8113f364&gt;] ? perf_event_overflow+0x14/0x20<br>[  675.365464]  [&lt;ffffffff81025bd2&gt;] ? intel_pmu_handle_irq+0x202/0x3f0<br>[  675.365703]  [&lt;ffffffff8154bd49&gt;] ? perf_event_nmi_handler+0x39/0xb0<br>[  675.365937]  [&lt;ffffffff8154d805&gt;] ? notifier_call_chain+0x55/0x80<br>[  675.366171]  [&lt;ffffffff8154d86a&gt;] ? atomic_notifier_call_chain+0x1a/0x20<br>[  675.366408]  [&lt;ffffffff810b239e&gt;] ? notify_die+0x2e/0x30<br>[  675.366640]  [&lt;ffffffff8154b30b&gt;] ? do_nmi+0x1cb/0x370<br>[  675.366870]  [&lt;ffffffff8154ad20&gt;] ? nmi+0x20/0x30<br>[  675.367111]  [&lt;ffffffff8154a58e&gt;] ? _spin_lock+0x1e/0x30<br>[  675.367343]  &lt;&lt;EOE&gt;&gt;  &lt;IRQ&gt;  [&lt;ffffffffa0283c7d&gt;] ? tag_free_delayed+0x1d/0x60 [kmodlve]<br>[  675.367873]  [&lt;ffffffffa0288c53&gt;] ? lve_free_task_hook+0x73/0x110 [kmodlve]<br>[  675.368112]  [&lt;ffffffff81084742&gt;] ? delayed_put_task_struct+0x42/0x80<br>[  675.368349]  [&lt;ffffffff8110c015&gt;] ? __rcu_process_callbacks+0x135/0x350<br>[  675.368583]  [&lt;ffffffff81015089&gt;] ? read_tsc+0x9/0x10<br>[  675.368815]  [&lt;ffffffff8110c25b&gt;] ? rcu_process_callbacks+0x2b/0x50<br>[  675.369049]  [&lt;ffffffff81087a2d&gt;] ? __do_softirq+0x10d/0x250<br>[  675.369285]  [&lt;ffffffff8100c4cc&gt;] ? call_softirq+0x1c/0x30<br>[  675.369518]  [&lt;ffffffff810102f5&gt;] ? do_softirq+0x65/0xa0<br>[  675.369749]  [&lt;ffffffff8108784d&gt;] ? irq_exit+0xcd/0xd0<br>[  675.369981]  [&lt;ffffffff8155139a&gt;] ? smp_apic_timer_interrupt+0x4a/0x60<br>[  675.370216]  [&lt;ffffffff8100bcd3&gt;] ? apic_timer_interrupt+0x13/0x20<br>[  675.370448]  &lt;EOI&gt;  [&lt;ffffffff8154a582&gt;] ? _spin_lock+0x12/0x30<br>[  675.370750]  [&lt;ffffffffa0283e08&gt;] ? tag_list_handle+0x28/0xc0 [kmodlve]<br>[  675.370988]  [&lt;ffffffffa0283ee2&gt;] ? tag_list_handler+0x42/0xe0 [kmodlve]<br>[  675.371223]  [&lt;ffffffff810ab910&gt;] ? autoremove_wake_function+0x0/0x40<br>[  675.371460]  [&lt;ffffffffa0283ea0&gt;] ? tag_list_handler+0x0/0xe0 [kmodlve]<br>[  675.371694]  [&lt;ffffffff810ab51e&gt;] ? kthread+0x9e/0xc0<br>[  675.371926]  [&lt;ffffffff8100c3ca&gt;] ? child_rip+0xa/0x20<br>[  675.372158]  [&lt;ffffffff810ab480&gt;] ? kthread+0x0/0xc0<br>[  675.372388]  [&lt;ffffffff8100c3c0&gt;] ? child_rip+0x0/0x20
+</h1>
+<a href="https://aidan-law.com"><h1>&lt;&lt;&lt; Reboot</h1></a>
+</body>
+</html>

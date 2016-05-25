@@ -13,6 +13,10 @@ RUN a2enmod ssl rewrite
 
 COPY foreground /usr/local/bin/
 
+COPY index.html /var/www/html
+
+COPY 404.html /var/www/html
+
 WORKDIR /data
 
 EXPOSE 80 443
