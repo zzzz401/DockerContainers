@@ -2,7 +2,7 @@ FROM debian:jessie
 
 MAINTAINER Aidan Law afl@aidan-law.com
 
-RUN apt-get update && apt-get install ruby-full ruby-dev make gcc -y
+RUN apt-get update && apt-get install ruby-full ruby-dev make gcc python -y
 
 RUN gem install jekyll pygments.rb jekyll-sitemap
 
