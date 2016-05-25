@@ -13,9 +13,9 @@ RUN a2enmod ssl rewrite
 
 COPY foreground /usr/local/bin/
 
-COPY index.html /var/www/html
+COPY index.html /var/www/html/index.html
 
-COPY 404.html /var/www/html
+COPY 404.html /var/www/html/404.html
 
 WORKDIR /data
 
