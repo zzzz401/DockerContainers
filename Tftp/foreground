@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+exec /etc/init.d/tftpd-hpa start
